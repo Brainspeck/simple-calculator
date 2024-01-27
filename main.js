@@ -18,8 +18,6 @@ buttons.forEach(button => {
             }
             return;
             
-            screen.textContent = screen.textContent.slice(0, -1)
-            return;
         }
 
         if ( button.id === 'equal'){
